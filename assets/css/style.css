@@ -133,6 +133,32 @@ main {
     color: #3a3a3a;
 }
 
+/* Reasons styles */
+#reasons {
+    width: 90%;
+    margin: 20px auto
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    height: 200%;
+    text-align: center;
+}
+
+#benefits-physical > div, #benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+p {
+    padding: 0 20px;
+}
+
 /* Media Query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
