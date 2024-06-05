@@ -29,7 +29,7 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
-/* Declaration for any a tag that is a descendant of a Header */
+/* Declaration for any <a> tag that is a descendant of a Header */
 header a {
     text-decoration: none;
     color: inherit;
@@ -43,6 +43,21 @@ h1 {
     color: #252525;
 }
 
+/* Menu unordered list */
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 /* Main Content */
 main { 
     background-color: lightblue;
@@ -54,3 +69,6 @@ main {
 footer {
     background-color: orange;
 }
+
+
+
