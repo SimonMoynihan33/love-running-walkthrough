@@ -13,7 +13,7 @@
 body {
     min-height: 100vh;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
@@ -53,7 +53,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -87,7 +87,7 @@ nav {
 }
 
 /* Main Content */
-main { 
+main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
@@ -99,5 +99,27 @@ footer {
     background-color: orange;
 }
 
+/* Media Query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
 
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    
+    #menu {
+        display: flex;
+    }
 
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+}
